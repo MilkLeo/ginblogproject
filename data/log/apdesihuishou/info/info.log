@@ -1,0 +1,95 @@
+2020-06-29 16:29:52.473 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 17304 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 16:29:52.478 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 16:29:53.494 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 16:59:10.018 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 18756 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 16:59:10.021 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 16:59:10.821 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:02:59.164 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 11624 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:02:59.166 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:03:00.017 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:13:51.307 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 19524 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:13:51.310 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:13:52.171 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:28:49.638 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 10156 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:28:49.641 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:28:50.448 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:37:54.884 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 17236 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:37:54.888 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:37:56.619 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8079 (http)
+2020-06-29 17:37:56.631 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:37:56.632 [main]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-29 17:37:56.633 [main]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-29 17:37:56.804 [main]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-29 17:37:56.805 [main]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1849 ms
+2020-06-29 17:37:57.254 [main]  INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 17:37:57.344 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:37:57.621 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-29 17:38:19.854 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:38:19.859 [main]  INFO org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-29 17:38:19.872 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:43:16.079 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 6624 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:43:16.082 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:43:17.918 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8079 (http)
+2020-06-29 17:43:17.930 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:43:17.930 [main]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-29 17:43:17.930 [main]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-29 17:43:18.065 [main]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-29 17:43:18.065 [main]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+2020-06-29 17:43:18.538 [main]  INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 17:43:18.662 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:43:18.932 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-29 17:43:41.073 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:43:41.081 [main]  INFO org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-29 17:43:41.100 [main]  INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-29 17:45:15.787 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 17796 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:45:15.792 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:45:17.823 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8079 (http)
+2020-06-29 17:45:17.833 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:45:17.834 [main]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-29 17:45:17.834 [main]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-29 17:45:17.960 [main]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-29 17:45:17.960 [main]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2094 ms
+2020-06-29 17:45:18.480 [main]  INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 17:45:18.605 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:45:18.915 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-29 17:45:19.757 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-29 17:45:19.862 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-29 17:45:19.900 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:45:19.940 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8079 (http) with context path ''
+2020-06-29 17:45:19.941 [main]  INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-29 17:45:19.962 [main]  INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-29 17:45:20.033 [main]  INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-29 17:45:20.073 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Started GinblogprojectApplication in 4.879 seconds (JVM running for 6.927)
+2020-06-29 17:46:20.978 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Starting GinblogprojectApplication on suewong with PID 25356 (E:\idea_workspace\ginblogproject\target\classes started by Administrator in E:\idea_workspace\ginblogproject)
+2020-06-29 17:46:20.981 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - No active profile set, falling back to default profiles: default
+2020-06-29 17:46:22.891 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8079 (http)
+2020-06-29 17:46:22.901 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:46:22.902 [main]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-29 17:46:22.902 [main]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-29 17:46:23.012 [main]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-29 17:46:23.012 [main]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1944 ms
+2020-06-29 17:46:23.541 [main]  INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 17:46:23.660 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 17:46:23.960 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-29 17:46:24.761 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-29 17:46:24.825 [main]  INFO org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-29 17:46:24.862 [main]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8079"]
+2020-06-29 17:46:24.902 [main]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8079 (http) with context path ''
+2020-06-29 17:46:24.904 [main]  INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-29 17:46:24.926 [main]  INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-29 17:46:24.976 [main]  INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-29 17:46:25.016 [main]  INFO com.gin.ginblogproject.GinblogprojectApplication - Started GinblogprojectApplication in 4.662 seconds (JVM running for 6.858)

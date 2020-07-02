@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gin.ginblogproject.mapper.ArticleMapper">
+  <resultMap id="BaseResultMap" type="com.gin.ginblogproject.model.entity.Article">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="auth_name" jdbcType="VARCHAR" property="authName" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="isvalid" jdbcType="INTEGER" property="isvalid" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="source_id" jdbcType="INTEGER" property="sourceId" />
+    <result column="create_dt" jdbcType="TIMESTAMP" property="createDt" />
+    <result column="update_dt" jdbcType="TIMESTAMP" property="updateDt" />
+    <result column="authorization_url" jdbcType="VARCHAR" property="authorizationUrl" />
+    <result column="author_id" jdbcType="INTEGER" property="authorId" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.gin.ginblogproject.model.entity.Article">
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, auth_name, source, isvalid, status, source_id, create_dt, update_dt, authorization_url, 
+    author_id
+  </sql>
+  <sql id="Blob_Column_List">
+    content
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from cn_article
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from cn_article
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.gin.ginblogproject.model.entity.Article">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into cn_article (name, auth_name, source, 
+      isvalid, status, source_id, 
+      create_dt, update_dt, authorization_url, 
+      author_id, content)
+    values (#{name,jdbcType=VARCHAR}, #{authName,jdbcType=VARCHAR}, #{source,jdbcType=VARCHAR}, 
+      #{isvalid,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{sourceId,jdbcType=INTEGER}, 
+      #{createDt,jdbcType=TIMESTAMP}, #{updateDt,jdbcType=TIMESTAMP}, #{authorizationUrl,jdbcType=VARCHAR}, 
+      #{authorId,jdbcType=INTEGER}, #{content,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.gin.ginblogproject.model.entity.Article">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into cn_article
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        name,
+      </if>
+      <if test="authName != null">
+        auth_name,
+      </if>
+      <if test="source != null">
+        source,
+      </if>
+      <if test="isvalid != null">
+        isvalid,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="sourceId != null">
+        source_id,
+      </if>
+      <if test="createDt != null">
+        create_dt,
+      </if>
+      <if test="updateDt != null">
+        update_dt,
+      </if>
+      <if test="authorizationUrl != null">
+        authorization_url,
+      </if>
+      <if test="authorId != null">
+        author_id,
+      </if>
+      <if test="content != null">
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="authName != null">
+        #{authName,jdbcType=VARCHAR},
+      </if>
+      <if test="source != null">
+        #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="isvalid != null">
+        #{isvalid,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="sourceId != null">
+        #{sourceId,jdbcType=INTEGER},
+      </if>
+      <if test="createDt != null">
+        #{createDt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDt != null">
+        #{updateDt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="authorizationUrl != null">
+        #{authorizationUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="authorId != null">
+        #{authorId,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.gin.ginblogproject.model.entity.Article">
+    update cn_article
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="authName != null">
+        auth_name = #{authName,jdbcType=VARCHAR},
+      </if>
+      <if test="source != null">
+        source = #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="isvalid != null">
+        isvalid = #{isvalid,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="sourceId != null">
+        source_id = #{sourceId,jdbcType=INTEGER},
+      </if>
+      <if test="createDt != null">
+        create_dt = #{createDt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDt != null">
+        update_dt = #{updateDt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="authorizationUrl != null">
+        authorization_url = #{authorizationUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="authorId != null">
+        author_id = #{authorId,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.gin.ginblogproject.model.entity.Article">
+    update cn_article
+    set name = #{name,jdbcType=VARCHAR},
+      auth_name = #{authName,jdbcType=VARCHAR},
+      source = #{source,jdbcType=VARCHAR},
+      isvalid = #{isvalid,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      source_id = #{sourceId,jdbcType=INTEGER},
+      create_dt = #{createDt,jdbcType=TIMESTAMP},
+      update_dt = #{updateDt,jdbcType=TIMESTAMP},
+      authorization_url = #{authorizationUrl,jdbcType=VARCHAR},
+      author_id = #{authorId,jdbcType=INTEGER},
+      content = #{content,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.gin.ginblogproject.model.entity.Article">
+    update cn_article
+    set name = #{name,jdbcType=VARCHAR},
+      auth_name = #{authName,jdbcType=VARCHAR},
+      source = #{source,jdbcType=VARCHAR},
+      isvalid = #{isvalid,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      source_id = #{sourceId,jdbcType=INTEGER},
+      create_dt = #{createDt,jdbcType=TIMESTAMP},
+      update_dt = #{updateDt,jdbcType=TIMESTAMP},
+      authorization_url = #{authorizationUrl,jdbcType=VARCHAR},
+      author_id = #{authorId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
